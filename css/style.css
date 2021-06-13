@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(164, 201, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.baner{
+    padding: .5em .7em;
+    background-color: brown;
+}
+.top-baner{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+.hint{
+    display: inline-block;
+    position: relative;
+}
+.hint-label{
+    position: fixed;
+    left: 27%;
+    margin-top: 150px;
+    color: rgb(110, 2, 2);
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hint-text{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 200px;
+    left: 14%;
+    width: 600px;
+    border-radius: 15px;
+    text-align: center;
+}
+.hint:hover .hint-text{
+    display: block;
+}
+.text{
+    color: white;
+}
